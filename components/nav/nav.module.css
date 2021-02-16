@@ -6,6 +6,7 @@
 	padding: 50px;
 	position: fixed;
 	top: 0;
+	color: #dbedf3;
 }
 
 .logo {
@@ -29,10 +30,24 @@
 	align-items: center;
 	list-style-type: none;
 }
+.links li {
+	overflow-x: hidden;
+}
+
 .links li:nth-child(2) {
 	margin: 0 50px;
 }
 
 .links a {
 	font-size: 20px;
+}
+.links a:last-child {
+	color: #f73859;
+}
+
+.links div {
+	background-color: #dbedf3;
+	height: 3px;
+	border-radius: 1px;
+	transition: 0.3s;
 }
