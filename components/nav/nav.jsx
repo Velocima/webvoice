@@ -17,8 +17,12 @@ export default function Nav() {
 		},
 	];
 	return (
-		<nav>
-			<ul>
+		<nav className={styles.nav}>
+			<section className={styles.logo}>
+				<img src='/logo.png' alt='WebVoice Logo' />
+				<h2>WebVoice</h2>
+			</section>
+			<ul className={styles.links}>
 				{pages.map((page) => {
 					return (
 						<li>

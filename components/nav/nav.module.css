@@ -1,0 +1,38 @@
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 50px;
+	position: fixed;
+	top: 0;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo img {
+	width: 100px;
+}
+
+.logo h2 {
+	font-weight: 400;
+	font-size: 35px;
+}
+
+.links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style-type: none;
+}
+.links li:nth-child(2) {
+	margin: 0 50px;
+}
+
+.links a {
+	font-size: 20px;
+}
